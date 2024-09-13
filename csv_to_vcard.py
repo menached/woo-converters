@@ -35,7 +35,7 @@ def csv_to_vcard(csv_file, vcf_file):
                 vcf.write(vcard.serialize())
 
 # Usage example
-csv_file = 'nextcloud_contacts.csv'  # Your CSV file
+csv_file = 'test3.csv'  # Your CSV file
 vcf_file = 'nextcloud_contacts.vcf'  # Output vCard file
 csv_to_vcard(csv_file, vcf_file)
 
